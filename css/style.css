@@ -105,3 +105,41 @@ body {
   color: #FFFFFF;
   box-shadow: 0px 3px 12px -2px var(--color-terracotta)
 }
+
+/* 
+<section class="explore sct light">
+
+      <div class="sct-header">
+        <div class="header-line"></div>
+
+        <div class="header-title">
+          <h3>Explore the Coffee World</h3>
+        </div>
+        
+        <div class="header-line"></div>
+      </div>
+    </section>
+*/
+
+.sct-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 11px;
+}
+
+.header-line {
+  width: 100%;
+}
+
+.header-title h3 {
+  white-space: nowrap;
+}
+
+.light .header-line {
+  border: 2px solid var(--color-roasted-coffee);
+}
+
+.explore {
+  background-color: var(--color-cream);
+}
