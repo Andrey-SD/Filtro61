@@ -177,6 +177,30 @@ body {
   gap: 41px;
 }
 
+@media (width < 768px) {
+  .card-box {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (768px < width < 1024px) {
+  .card-box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (1024px < width < 1366px) {
+  .card-box {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (1366px < width) {
+  .card-box {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
 .card {
   background-color: var(--color-terracotta);
   border-radius: 10px;
