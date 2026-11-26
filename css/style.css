@@ -250,3 +250,30 @@ body {
   width: 80%;
   margin: 0 auto;
 }
+
+/* 
+    <section class="get sct dark">
+      <div class="sct-header">
+        <div class="header-line"></div>
+
+        <div class="header-title">
+          <h3>Get in Touch with Us</h3>
+        </div>
+
+        <div class="header-line"></div>
+      </div>
+    </section>
+*/
+
+.dark {
+  background-color: var(--color-roasted-coffee);
+}
+
+.dark .header-title h3 {
+  color: var(--color-cream);
+
+}
+
+.dark .header-line {
+  border: 2px solid var(--color-cream);
+}
